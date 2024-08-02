@@ -8,12 +8,7 @@
                     </h4>
                     <?= $this->Form->create($volunteerInterviewDetail, ['class' => 'writere-v1', 'id' => 'volunteerInterviewDetail']) ?>
                     <h5>The Get Transcript detail have been successfully saved.</h5>
-                    <!-- <ul>
-                        <li>Alumni Name: <?= $volunteerInterviewDetail->alumni_name ?></li>
-                        <li>Alumni Registration Number: <?= $volunteerInterviewDetail->alumni_registration_number ?></li>
-                        <li>Current Position: <?= $volunteerInterviewDetail->current_position ?></li>
-                        <li>Short Bio: <?= $volunteerInterviewDetail->short_bio ?></li>
-                    </ul> -->
+
                     <?= $this->Form->end() ?>
                 </div>
             </div>
